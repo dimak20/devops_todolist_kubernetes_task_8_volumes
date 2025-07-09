@@ -7,6 +7,6 @@ echo "Creating namespace"
 kubectl apply -f ./.infrastructure/namespace.yml
 
 echo "Creating other manifests"
-kubectl apply -f ./infrastructure/
+kubectl apply -f ./.infrastructure/
 
 echo "Done!"
